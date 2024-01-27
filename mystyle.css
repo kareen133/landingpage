@@ -1,0 +1,235 @@
+header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 18px;
+   background-color: #997950;
+   color: beige;
+   height: 13px;
+margin-bottom: 50px;
+}
+nav ul li {
+     list-style-type: none;
+    display :inline-block;
+    padding : 0px  20px;
+    
+
+}
+.logo{
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+   font-size: 20px;
+   text-decoration: underline;
+   
+}
+.my{
+    position: relative;
+    padding-left: 270px;
+    z-index: 1;
+}
+.box{
+    position: absolute;
+    background-color: #997950;
+    width: 460px;
+    height: 250px;
+    z-index: 2;
+    margin-top: 150px;
+    font-size: 23px;
+    text-align: center;
+    color:white;
+    padding:10px;
+    line-height: 1.5;
+}
+li a {
+    color: beige;
+    text-decoration: none;
+}
+a:hover{
+   color: #6B4423;
+    
+}
+ 
+button{
+    font-size: 13px;
+    color:#6B4423;
+    background-color: beige;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 50px;
+border-style: none;
+}
+button:hover{
+    color:beige;
+    background-color: #6B4423;
+    text-decoration: underline;
+}
+.quali, .shipp, .warr {
+    width: 150px;
+    height: 100px;
+}
+.feature{
+
+    display: flex;
+    justify-content: space-around;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-top: 15px;
+    padding-bottom: 50px;
+   
+}
+section h1 {
+margin: 70px;
+font-size: 35px;
+margin-bottom: 30px;
+color:#191919;
+}
+figure{
+    margin: 40px;
+    margin-top: 9px;
+    /*position:absolute;*/
+    float:left;
+}
+.best{
+    height:190px;
+    width:300px;
+    line-height:normal;
+    text-align: center;
+    padding-left: 100px;
+    margin-top: 6px;
+    padding-top: 7px;
+
+}
+.num{
+    display: flex;
+    justify-content: space-around;
+   padding-right: 150px;
+    text-align: center;
+
+   
+}
+
+.pictext{
+    float: right;
+    text-align: center;
+}
+.num h1{
+    color: #643610;
+   
+}
+.best h2{
+    font-weight: bold;
+    font-size: 33px;
+}
+ section h1{
+    padding-top:60px;
+ }
+
+
+
+
+.chair{
+    height: 420px;
+    width: 300px;
+    padding: 20px;
+    align-items: center;
+      
+
+}
+
+.pprice  {
+    text-align: center;
+    font-size: 18px;
+    color:#636363;
+    font-weight: bold;
+    margin: 3px;
+    
+}
+.pname{
+    text-align: center;
+    font-size: 20px;
+    color:#2e2e2e;
+    font-weight: bold;
+    margin: 3px;
+}
+.pmore{
+    text-align: center;
+    font-size: 13px;
+    color:#636363;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 3px;
+}
+.myproudect{
+    height: 500px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 140px;
+  
+    
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
+.Benefits{
+    padding-bottom: 120px;
+}
+.ourpro{
+    padding-bottom: 20px;
+}
+
+footer{
+    margin-top:600px;
+    background: #997950;
+    padding: 50px;
+}
+.container{
+    width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+}
+.footer{
+    width:33.3%;
+}
+h3{
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.footer-content p{
+    width: 190px;
+    margin: auto;
+    padding: 7px;
+}
+.footer-content ul{
+    text-align: center;
+}
+
+.listt{
+    padding: 0;
+}
+
+
+.listt li{
+    width: auto;
+    text-align: center;
+    list-style-type:none ;
+    padding: 7px;
+    position: relative;
+}
+
+.footer-content input{
+    padding: 8px;
+    border-radius: 50px;
+    background-color:rgb(252, 252, 252);
+    
+}
+.copy{
+    text-align: center;
+  
+    
+}
